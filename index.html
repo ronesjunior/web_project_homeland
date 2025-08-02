@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rones Júnior" />
+    <meta name="keywords" content="desenvovimento web, tripleten" />
+    <meta
+      name="description"
+      content="Página dedicada a aprendizado em desenvolvimento web HTML, CSS."
+    />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Biblioteca Tripleten</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes" class="nav__link">Receitas</a>
+            </li>
+            <li>
+              <a href="#reservation" class="nav__link">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a href="#footer" class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent"> Café especial</span>
+          <br />
+          <span>na biblioteca Triple Peaks</span>
+        </h1>
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Ilustração 'Dentro da biblioteca'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Horários:</p>
+            <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
+          <div>
+            <p class="header__paragraph">
+              200 Success Avenue, a cidade de Triple Peaks
+            </p>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <h4 class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </h4>
+          <div class="recipes__videos">
+            <div class="recipes__videos-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=oaXYD4Qw0Npls_N7"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>Receita Aeropress</p>
+                <p>~5 min</p>
+              </div>
+            </div>
+
+            <div class="recipes__videos-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=fwM7ECoFBL-gpufl"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>Receita de Prensa Francesa</p>
+                <p>~15 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form
+            class="form reservation__form"
+            action="/processar-formulario"
+            method="POST"
+          >
+            <div class="reservation__fieldset">
+              <label class="reservation__label" for="nome">Nome *</label>
+              <input
+                type="text"
+                class="reservation__input"
+                minlength="3"
+                maxlength="20"
+                required
+                placeholder="Nome"
+              />
+
+              <label class="reservation__label" for="nome"
+                >Número de convidados *</label
+              >
+              <input
+                type="number"
+                class="reservation__input"
+                minlength="3"
+                maxlength="20"
+                required
+                placeholder="1-8"
+              />
+
+              <label class="reservation__label" for="nome">Data e hora *</label>
+              <input
+                type="datetime-local"
+                class="reservation__input"
+                minlength="3"
+                maxlength="20"
+                required
+              />
+
+              <label class="reservation__label" for="nome">Seu e-mail *</label>
+              <input
+                type="email"
+                class="reservation__input"
+                minlength="3"
+                maxlength="20"
+                required
+                placeholder="email@email.com"
+              />
+            </div>
+            <div class="reservation__button">
+              <button type="submit" class="reservation__button-submit">
+                Reservar uma mesa
+              </button>
+            </div>
+            <div class="reservation__checkbox">
+              <input
+                type="checkbox"
+                class="reservation__checkbox-input"
+                required
+              />
+              <label class="reservation__checkbox-label"
+                >Eu concordo com os termos de uso</label
+              >
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logomarca"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídias sociais</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  class="footer__social-icon"
+                  alt="icone Facebook"
+                />
+                <h4 class="footer__social-link">Facebook</h4>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  class="footer__social-icon"
+                  alt="icone Instagram"
+                />
+                <h4 class="footer__social-link">Instagram</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__copyright">&#169 2025 Rones</p>
+        <div class="footer__circle"></div>
+      </footer>
+    </div>
+  </body>
+</html>
