@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "Inter-Black";
-  src: url("../fonts/Inter-Black.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Inter-Regular";
-  src: url("../fonts/Inter-Regular.woff2") format("woff2");
-}
-
 .intro {
   display: flex;
   flex-direction: column;
