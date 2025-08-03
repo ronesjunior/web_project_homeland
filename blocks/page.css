@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a2c2f;
+  max-width: 1512px;
+  justify-content: center;
+}

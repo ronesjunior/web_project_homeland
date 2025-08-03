@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "Inter-Black";
+  src: url("../fonts/Inter-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: 830px;
+    height: 482px;
+    margin: 92px 302px 0 148px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__title {
+    margin: 0;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0%;
+    color: white;
+    font-family: "Inter-Black";
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__frase {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 738px;
+    height: 68px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__autor {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 732px;
+    height: 34px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: end;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro__apresentacao {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 163%;
+    letter-spacing: 0%;
+    width: 722px;
+    height: 182px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 490px;
+    margin: 90px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0%;
+    color: white;
+    font-family: "Inter-Black";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__frase {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 720px;
+    height: 102px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__autor {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 720px;
+    height: 34px;
+    margin-top: 26px;
+    margin-bottom: 0;
+    text-align: end;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__apresentacao {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 163%;
+    letter-spacing: 0%;
+    width: 720px;
+    height: 182px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 288px;
+    height: 878px;
+    margin: 64px 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: white;
+    font-family: "Inter-Black";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__frase {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    width: 288px;
+    height: 180px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__autor {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 288px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: end;
+    font-family: "Inter-Regular";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__apresentacao {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 163%;
+    letter-spacing: 0%;
+    width: 288px;
+    height: 442px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: "Inter-Regular";
+  }
+}
