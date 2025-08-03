@@ -4,6 +4,17 @@
   align-items: center;
 }
 
+.footer__copyright {
+  width: 166px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: white;
+  margin-top: 92px;
+  font-family: "Inter-Regular";
+}
+
 @media screen and (max-width: 1280px) {
   .footer__copyright {
     width: 166px;

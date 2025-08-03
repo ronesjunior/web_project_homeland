@@ -19,6 +19,25 @@
   line-height: 100px;
 }
 
+.lead__subtitle {
+  margin-top: 30px;
+  width: 720px;
+  height: 72px;
+  opacity: 1;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+}
+
+.lead__image {
+  margin: 30px 148px 0 148px;
+  max-width: 984px;
+  max-height: 615px;
+}
+
 @media screen and (max-width: 1280px) {
   .lead__title {
     margin-top: 90px;
