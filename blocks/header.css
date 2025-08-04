@@ -1,26 +1,12 @@
 .header {
   display: flex;
+  max-width: 1280px;
   flex-direction: column;
-  align-items: center;
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    max-width: 1280px;
-    max-height: 1883px;
-  }
+  margin: 0 auto 0;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: 768px;
-    max-height: 1659px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
-    max-width: 320px;
-    max-height: 1550px;
+    width: 100%;
   }
 }
