@@ -10,4 +10,4 @@ A página é o quinto projeto no programa de desenvolvimento web da TripleTen. E
 - Figma
 - Responsivo
 
-link para acesso: https://ronesjunior.github.io/sprint_5_tripleten
+link para acesso: https://ronesjunior.github.io/web_project_homeland
